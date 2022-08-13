@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background: #EFF5F5;
+    font-size: 62.5%;
+}
+hr{
+    border: 1px solid black;
+}
+body{
+    max-width: 1200px;
+    width: 95%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+header{
+    height: 20vh;
+}
+nav{
+    display: flex;
+    height: 20vh;
+}
+.leftside{
+    width: 50%;
+
+}
+.leftside >img{
+    
+    height: 15rem;
+    position: absolute;
+    left: 3vw;
+    
+}
+.leftside >.details{
+    text-align: center;
+    position: relative;
+    top: 5vh;
+    left: 3vw;
+
+}
+.details p:nth-child(1){
+    font-size:2rem
+}
+.details p:nth-child(2){
+    font-size:2.3rem
+}
+.details p:nth-child(3){
+    font-size:1.7rem
+}
+a >img{
+    height: 40px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+#login{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    }
+#nepali{
+    margin-right: 1rem;
+}
+.rightside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+
+}
+.rightside > .righttop{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative; 
+    top: 20%;
+    
+}
+
+.language-and-login{
+    padding-left: 10%;
+}
+
+.rightdown{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    bottom: 8%;
+    width: 100%;
+    text-align: center;
+}
+.search >input{
+    font-size: 1rem;
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
+    outline: aquamarine;
+    border: none;
+    position: relative;
+    right: 10%;
+}
+.search > button{
+    position: relative;
+    top:20%;
+    right: 8%;
+    border: none;
+    cursor: pointer;
+}
+.phone{
+    position: relative;
+    top:.8rem;
+    right: 6.5rem;  
+}
+.phoneInfo >strong{
+    font-size: 1.6rem;
+    position: relative;
+    top: .4rem;
+    right: 6rem;
+}
+.menus>p{
+    font-size: 2.4rem;
+    padding: 1rem;
+    font-weight: 545;
+}
+.menus p>span{
+    cursor: pointer;
+}
+.menus{
+    display: flex;
+    background-color:#B1AFFF ;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.first-page{
+    display: flex;
+}
+.floating-notice{
+    margin-top: 20px;
+
+    font-size: 2rem;
+    display: flex;
+}
+.floating-notice>strong{
+    background-color: #B1AFFF;
+    border-radius: 5px 0px 0px 5px ;
+    padding: 7px 10px 7px 5px;
+}
+.floating-notice>p{
+    background-color: #BDBCE1;
+    border-radius: 0px 7px 7px 0px ;
+    padding: 7px 10px 7px 5px;
+    border: 1px solid black ;
+    text-overflow: clip;
+}
+.picture>img{
+    margin-top: 10px;
+    border-radius: 10px;
+}
